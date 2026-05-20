@@ -12,7 +12,7 @@ const API = (() => {
 
   /* ─── CONFIG (แก้ SCRIPT_URL ตรงนี้ที่เดียว) ────────────── */
   const SCRIPT_URL = window.GAS_URL ||
-    'https://script.google.com/macros/s/AKfycbyDt7x0DVSN6idJLhOGTa9ep-kHHO6O8HSa-8Hte_84mTR393YJVQrdhSnWaG_pXSYq/exec'; // นำลิงก์ URL มาใส่นะครับ
+    'https://script.google.com/macros/s/AKfycbw5Isj2Tw5Mj-ePJ48hwbnuBCHQ2KkVIjg0myW1ExUeEVQewUDBHLI7B2HnXrJrOHqT/exec'; // นำลิงก์ URL มาใส่นะครับ
 
   /* ─── Simple in-memory cache (TTL = 2 min) ──────────────── */
   const _cache = new Map();
